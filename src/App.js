@@ -21,8 +21,7 @@ export default function App() {
       fetch(`https://some-random-api.ml/joke`)
       .then(r => r.json())
       .then((recurso) => {
-        var k=recurso.id;
-        var p=0
+
         
         const ciudad = {
           joke : recurso.joke
